@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./STYLES/styles.css">
+    <link href="ASSETS/favicon.ico" rel="icon" type="image/x-icon" />
+    <title>TREVA HOTELS</title>
+
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css' rel='stylesheet'>
+
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+
+    <script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js'></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+
+    <style>
+      .sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+  padding: 30px;
+  font-size: 15px;
+  z-index: 10;
+}
+    </style>
+
+</head>
+<body>
+
+<!--NAVBAR-->
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Treva. Hotels</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Inicio <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./reserva.html">Reservas</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="./nuestrosServicios.html">Nuestros Servicios</a>
+        </li>
+          </li>
+        <a class="nav-link" href="contacto.html">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+
+<div class="alert sticky" role="alert">
+  <strong>CHS, CHS Toma un regalito..</strong> Obten un 10% de descuento con el codigo EXTRATEVA.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.hotelsantemar.com/wp-content/blogs.dir/1157/files/header-pics/slide_0003_Background.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Instalaciones de alta calidad</h5>
+        <p>Disfruta de unas buenas vacaciones con nuestras instalaciones.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.hotelconstanza.com/wp-content/blogs.dir/1583/files/home/home-slider2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Las mejores tematicas</h5>
+        <p>Habitaciones en distintas tematicas.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/87068712.jpg?k=427577813d90f04ed37fdda616da7837b73cd31aa9f3fd5cb3b57ccd1acea3fa&o=&hp=1" class="d-block w-100" alt="Piscina">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Piscina Incluida</h5>
+        <p>Todas nuestras instalaciones tienen piscina</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+<div class="container my-2">
+  <div class="row">
+    <div class="col">
+      Somos un Hotel que nace con la idea de ofrecer a sus clientes que viajan por placer o negocios, un ambiente cómodo y  acogedor  que  hará  su  estancia agradable y de confort con atención personalizada.   Estamos  convenientemente ubicado  a  dos  km  de  la  Universidad y  a solo  7 minutos del Centro Comercial , también  puede  encontrar deliciosos  restaurantes,  bares  y  cines  a  sus alrededores.
+    </div>
+    <div class="col">
+      Cómodo y cuidado, con una ubicación excepcional: a menos de cinco minutos a pie del Acueducto y del centro de la ciudad, junto a la la Estación de Autobuses y la Comisaría. Es el hotel perfecto para alojarse en Segovia ya sea por motivos profesionales o de ocio.
+    </div>
+    <div class="col">
+      El Hotel, cuenta con 62 habitaciones todas ellas exteriores, WIFI gratuito en todas sus instalaciones, un comedor para 120 personas, cafetería, gimnasio, servicio de lavandería y una amplia sala de convenciones. Parking concertado a pocos metros del Hotel.
+
+    </div>
+  </div>
+</div>
+
+
+<!--TARJETAS-->
+
+  <div class="container">   
+    <div class="card-group mt-3">
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://parrillaexpress.com.co/wp-content/uploads/2020/07/parrilla-express-haz-tu-reserva.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Reserva facilmente</h5>
+          <p class="card-text">Realiza tu reserva en menos de 2 minutos con los mejores descuentos. Desde 1 a 30 noches, habitaciones para fumadores, no fumadores..</p>
+          <a href="./reserva.html" class="btn btn-primary">Reserva aqui</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1U8hnrNGX4WSHPGxpFMuCjmIQchPf-CRWgC1AvM5NkTU30r0OWovBoTLAPBu5-dhnQzw&usqp=CAU" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nuestros Servicios</h5>
+          <p class="card-text">Te invitamos a descubrir todos nuestros servicios de Treva Hotels España.</p>
+          <a href="./nuestrosServicios.html" class="btn btn-primary">Nuestros Servicios</a>
+        </div>
+      </div>          
+  
+      <div class="card" style="width: 18rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTryDIJIL3HCe6zQLK7funtYf7TOP2QgObR4A&usqp=CAU" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Contacta con nosotros</h5>
+          <p class="card-text">¿Tienes alguna duda o incidencia? Contacta con nuestro equipo especializado con atencion 24 horas 7 dias a la semana.</p>
+          <a href="./contacto.html" class="btn btn-primary">Contacta con Nosotros</a>
+        </div>
+      </div>>          
+
+    </div>
+  </div>  
+
+
+<!--RESERVA-->
+
+<div id="booking" class="section">
+  <div class="section-center">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-7 col-md-push-5">
+                  <div class="booking-cta">
+                      <h1>Haz tu reserva</h1>
+                      <p>¿Sabias que..? Reservando directamente atraves de nuestra pagina Web te ahorras un 35% del precio total de tu reserva en comparacion con otras plataformas.
+                      </p>
+                  </div>
+              </div>
+              <div class="col-md-4 col-md-pull-7">
+                  <div class="booking-form">
+                      <form>
+                          <div class="form-group">
+                              <span class="form-label">Tu Destino</span>
+                              <input class="form-control" type="text" placeholder="Enter a destination or hotel name">
+                          </div>
+                          <div class="row">
+                              <div class="col-sm-6">
+                                  <div class="form-group">
+                                      <span class="form-label">Check In</span>
+                                      <input class="form-control" type="date" required>
+                                  </div>
+                              </div>
+                              <div class="col-sm-6">
+                                  <div class="form-group">
+                                      <span class="form-label">Check out</span>
+                                      <input class="form-control" type="date" required>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-sm-4">
+                                  <div class="form-group">
+                                      <span class="form-label">Nº DE HABITACIONES</span>
+                                      <select class="form-control">
+                                          <option>1</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                      </select>
+                                      <span class="select-arrow"></span>
+                                  </div>
+                              </div>
+                              <div class="col-sm-4">
+                                  <div class="form-group">
+                                      <span class="form-label">Adultos</span>
+                                      <select class="form-control">
+                                          <option>1</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                      </select>
+                                      <span class="select-arrow"></span>
+                                  </div>
+                              </div>
+                              <div class="col-sm-4">
+                                  <div class="form-group">
+                                      <span class="form-label">Niños</span>
+                                      <select class="form-control">
+                                          <option>0</option>
+                                          <option>1</option>
+                                          <option>2</option>
+                                      </select>
+                                      <span class="select-arrow"></span>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="form-btn">
+                              <button class="submit-btn">Ver disponibilidad</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+<!-- JavaScript Bundle with Popper -->
+
+
+
+<!-- FOOTER-->
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Registrate a nuestra NEWSLETTER</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Introduce tu email</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Suscribirse
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Treva Hotels es una Multinacional de hoteles con mas de 50 instalaciones ubicadas en todas las ubicaciones Mundiales. Treva Hotels TODOS LOS DERECHOS RESERVADOS
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">AYUDA</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">FAQ</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">¿Como Reservar?</a>
+            </li>
+            <li>
+              <a href="./contacto.html" class="text-white">Contacto</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">¿Quienes somos</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Descuentos</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Familias Numerosas</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Niños</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Personas de Colectivos</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Promociones</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Servicios</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="./nuestrosServicios.html" class="text-white">Nuestros Servicios</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Experiencias</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Regalos</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Alquileres</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Politicas</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Politica de Cancelacion</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Politica de Reservas</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Politica de LOPD</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Politica de Cookies</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="trevahotels.es">TREVA HOTELS</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+</body>
+</html>
